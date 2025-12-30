@@ -39,7 +39,7 @@ def main():
 
     model_path = st.sidebar.text_input(
         "Model Path",
-        value="./models/flan-t5-sentiment-extraction",
+        value="./model",
         help="Path to the fine-tuned model directory"
     )
 
